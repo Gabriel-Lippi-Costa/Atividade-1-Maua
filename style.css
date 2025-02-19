@@ -38,15 +38,16 @@ h2 {
 }
 
 #tabela {
-    display: grid;
     overflow-x: auto;
+    text-align: center;
 }
 
 table {
     border-collapse: collapse;
     margin: 0 auto;
     border: 1px solid black;
-    width: 100px;
+    width: 100%; /* Ajustado para ocupar toda a tela */
+    max-width: 300px; /* Limite para telas grandes */
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
